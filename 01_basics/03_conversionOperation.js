@@ -75,4 +75,53 @@ let stringNumber = String(someNumber); // ocnverts number to string value
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
-//
+// ********* Operations ***************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Kaif"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+// whatever comes first in console.log whether number or sring it consider all of them as same as first input it gets
+
+console.log((3+4)*5%3); //this is not a good practice to write a code
+
+console.log(true);// true
+console.log(+true);//1
+console.log(+""); // empty parenthasis
+
+let num1, num2, num3
+num1=num2=num3=2+2 // this is also not a good practice to code
+
+let gameCounter = 100
+gameCounter++; // post fix 
+console.log(gameCounter);
+
+let gameCounter1 = 100
+++gameCounter; // pre fix
+console.log(gameCounter1);
+
+// link to study 
+//https://tc38.es/ecma262/multipage/abstract-operation.html#sec-type-conversion
+
+
+
+
+
