@@ -7,6 +7,7 @@
 //         -null
 //         -undefined
 //         -Symbol (to make it unique)
+//         -BigInt
 
 //string
 let name = "Kaif"
