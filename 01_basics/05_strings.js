@@ -7,7 +7,7 @@ console.log(name + repoCount + "value");
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 
-const gameName = new String('kaifsrz')  
+const gameName = new String('kaif-srz')  
 
 console.log(gameName[0]); // prints string value at position 0 
 console.log(gameName.__proto__);
@@ -19,3 +19,18 @@ console.log(gameName.indexOf('f')); // shows position of given letter in string
 
 const newString = gameName.substring(0,4)
 console.log(newString);
+
+const anotherString = gameName.slice(-6,4)
+console.log(anotherString);
+
+const newStringOne = "  kaif  "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://kaif.com/kaif%20sarfraz"
+
+console.log(url.replace('%20','-')); // replacing %20 with -
+
+console.log(url.includes('sundar'));// check if sundar is on url
+
+console.log(gameName.split('-'));//split on the basis of -
